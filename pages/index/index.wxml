@@ -1,0 +1,27 @@
+<view class="search">
+  <view class="search_box">
+    <image src="/image/search.png"></image>
+    <text>搜索</text>
+  </view>
+</view>
+
+<swiper indicator-active-color="#fff" indicator-active-color="rgb(255,255,255,0.5)" indicator-dots circular autoplay>
+    <block wx:for="{{swiperList}}" wx:key="name">
+      <swiper-item>
+        <image src="{{item.image_src}}"></image>
+      </swiper-item>
+    </block>
+</swiper>
+
+  <view class="nav">
+    <view class="nav_btn" wx:for="{{4}}" wx:id="name">
+      <image src="http://157.122.54.189:9090/pyg/icon_index_nav_4@2x.png"></image>
+    </view>
+  </view>
+  <view class="nz">
+    <image src=""></image>
+    <view class="product_list" wx:for="{{5}}">
+      <image src=""></image>
+    </view>
+  </view>
+  

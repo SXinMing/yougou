@@ -1,0 +1,48 @@
+.search{  
+  display: flex;
+  background-color: #eb4450;
+  padding: 20rpx 16rpx;
+}
+.search .search_box{
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 2rpx;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.search image{
+  width: 20px;
+  height: 20px;
+  margin-left: 16px;
+}
+.search text{
+   color: #bbbbbb;
+   font-size: 28rpx;
+}
+swiper{
+  width: 100%;
+  height: 340rpx;
+}
+swiper image{
+  width: 100%;
+  height: 340rpx;
+}
+.nav{
+  display: flex;
+  align-content: center;
+  width: 100%;
+}
+.nav_btn{
+  height: 194rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25rpx 0;
+  width: 25%;
+}
+.nav image{
+  width: 140rpx;
+  height: 128rpx;
+}
