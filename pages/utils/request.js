@@ -9,8 +9,8 @@ function request(options) {
         url: BASE_URL+options.url,
         success: (res) => {
           // 解构
-          let { status, message } = res.data
-          if (status === 200) {
+          let { meta, message } = res.data
+          if (meta.status === 200) {
             resolve(message)
           }
         }

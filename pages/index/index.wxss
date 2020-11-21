@@ -35,7 +35,7 @@ swiper image{
   width: 100%;
 }
 .nav_btn{
-  height: 194rpx;
+  /* height: 194rpx; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,4 +45,24 @@ swiper image{
 .nav image{
   width: 140rpx;
   height: 128rpx;
+}
+.louArea{
+  width: 100%;
+}
+.louTitel{
+  width: 100%;
+  height: 88rpx;
+}
+.louSection{
+  width: 100%;
+}
+
+.louPic{
+  width: 30%;
+  float: left;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+}
+.louPic:last-child{
+  margin-right: 10rpx;
 }
